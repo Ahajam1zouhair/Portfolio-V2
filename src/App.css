@@ -1,0 +1,29 @@
+.coldarck,
+.colwhite {
+  animation-delay: 0.3s;
+  animation-name: fadeInUp;
+  background-attachment: scroll;
+  background-clip: text;
+  background-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+}
+
+.coldarck {
+  background-image: linear-gradient(
+    to left,
+    rgb(135, 80, 247) 0%,
+    rgb(255, 255, 255) 100%
+  );
+}
+.colwhite {
+  background-image: linear-gradient(
+    to left,
+    rgb(135, 80, 247) 0%,
+    rgb(42, 20, 84) 100%
+  );
+}
+.test{
+  background-color: rgb(75, 39, 112);
+  background-color:rgb(42, 20, 84);
+}
