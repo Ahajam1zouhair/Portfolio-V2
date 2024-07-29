@@ -26,7 +26,6 @@ export default function Contact() {
         <span className="text-cyan-700">/&gt;</span>
       </h2>
       <div className="w-full  px-2  md:mb-4 md:flex flex-wra justify-center">
-        <FomrContact />
         <div
           className="py-20"
           data-aos="fade-up"
@@ -34,6 +33,7 @@ export default function Contact() {
         >
           <IconsContact />
         </div>
+        <FomrContact />
       </div>
     </section>
   );

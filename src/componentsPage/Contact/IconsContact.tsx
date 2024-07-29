@@ -42,7 +42,7 @@ export default function IconsContact() {
     },
   ];
   return (
-    <section className="py-20">
+    <section className="py-2">
       {contact.map((item, idx) => (
         <div className="flex items-center  mb-8 px-7">
           <div key={idx} className="flex items-center ">

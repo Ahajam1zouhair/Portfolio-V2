@@ -10,7 +10,6 @@ import image9 from "./images/sofaDev/Capture d’écran 2024-07-26 130746.png";
 import image10 from "./images/sofaDev/Capture d’écran 2024-07-26 130801.png";
 import image11 from "./images/sofaDev/Capture d’écran 2024-07-26 130838.png";
 
-
 export const DataProject = [
   {
     src: "https://res.cloudinary.com/djv5jxmfs/image/upload/v1721932368/ppbx7uzdjupqrbaqm9gp.png",
@@ -34,6 +33,7 @@ export const DataProject = [
       image10,
       image11,
     ],
+    link: "https://github.com/Ahajam1zouhair/SOFEDEV",
   },
   {
     src: "https://b.top4top.io/p_3130snvdj1.png",
@@ -41,7 +41,7 @@ export const DataProject = [
     Outils: ["Php", "MySql", "Laravel", "Jquery"],
     introduction:
       "🚀🚀 The project, Gestion De L'espace Incubateur is developed using PHP, MySQL, Laravel, and jQuery...",
-    type: ["frontend", "all" , "backend"],
+    type: ["frontend", "all", "backend"],
     description:
       "The project, Gestion De L'espace Incubateur is developed using PHP, MySQL, Laravel, and jQuery. It is designed to streamline the daily management of incubator spaces and Digital Factory environments. The application offers a comprehensive suite of features to oversee activities, track incubated projects, and provide tailored resources and support. It also includes a dynamic dashboard to monitor key performance indicators for startups. The platform is equipped with functionality for activity supervision, progress tracking, resource management, and full project oversight, ensuring an efficient and effective user experience.",
     images: [
@@ -54,6 +54,7 @@ export const DataProject = [
       "https://c.top4top.io/p_3130psktp7.png",
       "https://d.top4top.io/p_31308gtu48.png",
     ],
+    link: "https://github.com/Ahajam1zouhair/GEIDEV",
   },
   {
     src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTT38AAonSqCxspSyreCZfbofbHVTLlUWXZQ&s",
@@ -67,6 +68,7 @@ export const DataProject = [
     images: [
       "https://media.licdn.com/dms/image/D4E0BAQHePaGnj9chdg/company-logo_200_200/0/1688399901976?e=2147483647&v=beta&t=ycRY-8SRb_gtXb39NqRDTOdquRastGCNHoicNmHTG1s",
     ],
+    link: "https://viralwave.agency/",
   },
   {
     src: "https://b.top4top.io/p_3130jhdd71.png",
@@ -79,7 +81,9 @@ export const DataProject = [
       "🛒💻 This project is an e-commerce platform built using React.js. It aims to provide a seamless and dynamic shopping experience for users, leveraging modern web technologies to ensure a responsive and user-friendly interface. The platform offers a range of features to enhance the online shopping experience, from browsing products to managing orders and payments efficiently",
     type: ["frontend", "all"],
     images: ["https://b.top4top.io/p_3130jhdd71.png"],
+    link: "https://ahajam1zouhair.github.io/Ecommerce/",
   },
+
   {
     src: "https://i.top4top.io/p_3130lgnn81.png",
     title: "🛒💻Portfolio",
@@ -91,5 +95,6 @@ export const DataProject = [
       "🎨💼 This project is a portfolio website built using React.js. It showcases a seamless and interactive experience for users, highlighting personal projects, professional achievements, and creative works. Leveraging the capabilities of modern web technologies, the portfolio offers a responsive design, dynamic content, and an intuitive user interface to effectively present skills and accomplishment",
     type: ["frontend", "all"],
     images: ["https://i.top4top.io/p_3130lgnn81.png"],
+    link: "https://zouhair-ahajam.vercel.app/",
   },
 ];

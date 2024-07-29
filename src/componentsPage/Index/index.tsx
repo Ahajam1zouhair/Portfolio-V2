@@ -20,7 +20,7 @@ export default function Index() {
 
   return (
     <section className="">
-      <main className="flex items-center justify-center min-h-screen  flex-col mt-20 md:mt-10">
+      <main className="flex items-center justify-center min-h-screen  flex-col mt-20 md:mt-15">
         <div className="avatar">
           <div className="w-32 rounded-full bg-white mb-4">
             <img

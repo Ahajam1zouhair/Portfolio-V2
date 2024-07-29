@@ -8,11 +8,10 @@ import { CarouselProject } from "./Carousel";
 import { DataProject } from "./dataProject";
 import { RootState } from "../../Redux/store";
 
-
 interface CardprojectAllProps {
   filterName: string; // Define the type for filterName
 }
-export default function CardprojectAll({ filterName  } :CardprojectAllProps) {
+export default function CardprojectAll({ filterName }: CardprojectAllProps) {
   const value = useSelector((state: RootState) => state.mode.value);
   useEffect(() => {
     Aos.init();
@@ -28,15 +27,20 @@ export default function CardprojectAll({ filterName  } :CardprojectAllProps) {
         {filteredProjects
           .filter((outil) => outil)
           .map((tab) => (
-            <div className="w-full md:w-5/12  md:px-2  mb-4 flex flex-wra justify-center" data-aos="zoom-in">
+            <div
+              className="w-full md:w-5/12  md:px-2  mb-4 flex flex-wra justify-center"
+              data-aos="zoom-in"
+            >
               <Dialog.Root>
                 <Dialog.Trigger>
                   <div className="card">
                     <div className="container">
                       <div className="px-4 py-4 ">
-                        <div className="mb-8 flex flex-wrap justify-end ">
-                          <FaExternalLinkAlt className="icon" />
-                        </div>
+                        <a href={tab.link} target="_blank"  className="mb-8 flex flex-wrap justify-end ">
+                          <FaExternalLinkAlt
+                            style={value ? { color: "" } : { color: "white" }}
+                          />
+                        </a>
                         <h2
                           className={` font-extrabold mt-8   text-center md:text-xl px-4  col ${
                             value ? `text-darck` : `  text-white `
@@ -45,7 +49,11 @@ export default function CardprojectAll({ filterName  } :CardprojectAllProps) {
                           {tab.title}
                         </h2>
                         <div className="flex  justify-center mb-5">
-                          <img src={tab.src} alt="" className=" w-4/6  md:h-52 " />
+                          <img
+                            src={tab.src}
+                            alt=""
+                            className=" w-4/6  md:h-52 "
+                          />
                         </div>
                         <div className="flex  justify-center mb-5 text-sm md:text-xl  h-1/3">
                           {tab.Outils.map((outil) => (
@@ -104,7 +112,6 @@ export default function CardprojectAll({ filterName  } :CardprojectAllProps) {
               </Dialog.Root>
             </div>
           ))}
-          
       </div>
     </>
   );
